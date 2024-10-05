@@ -1,0 +1,39 @@
+/* src/styles/App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-page {
+    padding: 20px;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dish-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+    width: 200px;
+    text-align: center;
+}
+
+.dish-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.order-details {
+    margin-top: 20px;
+}
+
+.order-details input {
